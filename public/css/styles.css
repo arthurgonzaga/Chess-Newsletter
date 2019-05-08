@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #F2FDFF;
+    background-color: #0D0221;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #F2FDFF;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+    border-color: #F61067;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.008), 0 0 5px rgb(246, 16, 103);
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: 35px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin .middle{
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 0;
+}
+.fa-chess{
+    margin: 20px;
+    color: #F61067;
+}
+.btn-dark:active, .btn-dark:focus {
+    color: #ffffff !important;
+    background-color: #F61067 !important;
+    border-color: #F61067 !important;
+  }
+.btn-dark{
+    background-color: #5B2C86;
+    border-color: #5B2C86;
+}
+.btn-dark:hover{
+    background-color: #5E239D;
+    border-color: #5E239D;
+}
