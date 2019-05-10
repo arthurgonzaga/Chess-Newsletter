@@ -76,3 +76,16 @@ body {
     background-color: #5E239D;
     border-color: #5E239D;
 }
+
+.alert-success{
+    background-color: #F61067;
+    border-color: #F61067;
+    color: white;
+}
+.alert-success hr{
+    border-top-color: rgba(255, 255, 255, 0.459);
+}
+
+.alert-dismissible .close:hover{
+    color: white;
+}
